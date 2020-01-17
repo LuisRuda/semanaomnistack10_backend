@@ -32,7 +32,7 @@ module.exports = {
       };
 
       dev = await Dev.create({
-        github_username,
+        github: github_username,
         name,
         avatar_url,
         bio,
